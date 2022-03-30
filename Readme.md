@@ -8,6 +8,8 @@ Balloon shooter game that I made as my first ever programming project @ college 
 * This project introduced passion & hunger for programming to me 
 * Free to use any way you can
 * Special thanks to suresh & prashant for support
+* Inno setup compiler for setup file
+* MingW 
 
 [https://liballeg.org/download.html] 
 [https://osdn.net/projects/sfnet_dev-cpp/downloads/webupdate/webupdate/Allegro.DevPak/]
