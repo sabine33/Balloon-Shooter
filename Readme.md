@@ -11,6 +11,9 @@ Balloon shooter game that I made as my first ever programming project @ college 
 * Inno setup compiler for setup file
 * MingW 
 
+![Balloon Shooter](balloon.png?raw=true "Balloon Shooter Game")
+
+
 [https://liballeg.org/download.html] 
 [https://osdn.net/projects/sfnet_dev-cpp/downloads/webupdate/webupdate/Allegro.DevPak/]
 (Allegro devpak)
