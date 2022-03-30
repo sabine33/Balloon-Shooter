@@ -9,3 +9,6 @@ Balloon shooter game that I made as my first ever programming project @ college 
 * Free to use any way you can
 * Special thanks to suresh & prashant for support
 
+[https://liballeg.org/download.html] 
+[https://osdn.net/projects/sfnet_dev-cpp/downloads/webupdate/webupdate/Allegro.DevPak/]
+(Allegro devpak)

@@ -37,8 +37,8 @@ void init();
 void deinit();
 void start();
 void play();
-void checkballoon();
-void smartmotion();
+void check_balloons();
+void smart_motion();
 
 // set highscore
 void highscore()
@@ -151,8 +151,8 @@ void play()
     bx = -100;
     by = rand() % (700 - 100) + 100;
   }
-  checkballoon();
-  smartmotion();
+  check_balloons();
+  smart_motion();
   bx += 3;
   if (score >= p && score <= p + 100)
   {
@@ -326,7 +326,7 @@ void deinit()
   clear_keybuf();
 }
 
-void checkballoon()
+void check_balloons()
 {
   if (balloon_first_ypos < -100)
   {
@@ -413,7 +413,7 @@ void checkballoon()
   }
 }
 
-void smartmotion()
+void smart_motion()
 {
 
   if (balloon_third_xpos >= 1300)
