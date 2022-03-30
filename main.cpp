@@ -5,7 +5,6 @@ Khwopa Engineering College
 Third Semester
 Minor project for C/C++
 */
-
 #include < allegro.h >
 #include < fstream.h >
 
@@ -260,26 +259,26 @@ void play()
 void start()
 {
 
-  sc1 = load_bitmap("screen1.bmp", NULL);
-  sc2 = load_bitmap("screen2.bmp", NULL);
-  sc3 = load_bitmap("screen3.bmp", NULL);
-  sc4 = load_bitmap("screen4.bmp", NULL);
-  fire = load_bitmap("fire.bmp", NULL);
-  bg = load_bitmap("bge.bmp", NULL);
-  bg1 = load_bitmap("bg1.bmp", NULL);
-  bal1 = load_bitmap("bal1.bmp", NULL);
-  bal2 = load_bitmap("bal2.bmp", NULL);
-  bal3 = load_bitmap("bal3.bmp", NULL);
-  bal4 = load_bitmap("bal4.bmp", NULL);
-  plane = load_bitmap("plane.bmp", NULL);
-  missile = load_bitmap("missile.bmp", NULL);
-  music = load_sample("music.wav");
-  bird = load_bitmap("bi.bmp", NULL);
-  bird1 = load_bitmap("bi1.bmp", NULL);
-  flag = load_bitmap("flag.bmp", NULL);
-  missile = load_bitmap("missile.bmp", NULL);
-  cloud1 = load_bitmap("c1.bmp", NULL);
-  cloud2 = load_bitmap("c.bmp", NULL);
+  sc1 = load_bitmap("assets/images/screen1.bmp", NULL);
+  sc2 = load_bitmap("assets/images/screen2.bmp", NULL);
+  sc3 = load_bitmap("assets/images/screen3.bmp", NULL);
+  sc4 = load_bitmap("assets/images/screen4.bmp", NULL);
+  fire = load_bitmap("assets/images/fire.bmp", NULL);
+  bg = load_bitmap("assets/images/bge.bmp", NULL);
+  bg1 = load_bitmap("assets/images/bg1.bmp", NULL);
+  bal1 = load_bitmap("assets/images/bal1.bmp", NULL);
+  bal2 = load_bitmap("assets/images/bal2.bmp", NULL);
+  bal3 = load_bitmap("assets/images/bal3.bmp", NULL);
+  bal4 = load_bitmap("assets/images/bal4.bmp", NULL);
+  plane = load_bitmap("assets/images/plane.bmp", NULL);
+  missile = load_bitmap("assets/images/missile.bmp", NULL);
+  music = load_sample("assets/audio/music.wav");
+  bird = load_bitmap("assets/images/bi.bmp", NULL);
+  bird1 = load_bitmap("assets/images/bi1.bmp", NULL);
+  flag = load_bitmap("assets/images/flag.bmp", NULL);
+  missile = load_bitmap("assets/images/missile.bmp", NULL);
+  cloud1 = load_bitmap("assets/images/c1.bmp", NULL);
+  cloud2 = load_bitmap("assets/images/c.bmp", NULL);
   clear_to_color(buffer, makecol(0, 0, 0));
 
   blit(sc1, screen, 0, 0, 0, 0, sc1 - > w, sc1 - > h);
